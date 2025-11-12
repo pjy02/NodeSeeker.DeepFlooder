@@ -4,7 +4,7 @@ Docker 版本请移步 ➡️ [NodeSeeker-docker](https://github.com/ljnchn/Node
 
 ---
 
-[![Deploy to Cloudflare Workers](https://deploy.workers.cloudflare.com/button)](https://deploy.workers.cloudflare.com/?url=https://github.com/pjy02/NodeSeeker-DeepFlooder.git)
+[![Deploy to Cloudflare Workers](https://deploy.workers.cloudflare.com/button)](https://deploy.workers.cloudflare.com/?url=https://github.com/pjy02/NodeSeeker_DeepFlooder.git)
 
 一个基于 Cloudflare Workers 的智能 RSS 监控和 Telegram 推送系统，专门用于监控 NodeSeek 社区的最新动态。
 
@@ -34,7 +34,7 @@ Docker 版本请移步 ➡️ [NodeSeeker-docker](https://github.com/ljnchn/Node
 
 ### 方式一：一键部署 (推荐)
 
-1. 点击上方的 [![Deploy to Cloudflare Workers](https://deploy.workers.cloudflare.com/button)](https://deploy.workers.cloudflare.com/?url=https://github.com/pjy02/NodeSeeker-DeepFlooder.git) 按钮。
+1. 点击上方的 [![Deploy to Cloudflare Workers](https://deploy.workers.cloudflare.com/button)](https://deploy.workers.cloudflare.com/?url=https://github.com/pjy02/NodeSeeker_DeepFlooder.git) 按钮。
 2. 授权 Cloudflare 访问您的 GitHub 仓库。
 3. 按照提示完成部署流程，Cloudflare 将自动为您完成项目创建和配置。
 4. 部署完成后，访问域名，系统会引导您创建一个管理员账户。
@@ -56,7 +56,7 @@ Docker 版本请移步 ➡️ [NodeSeeker-docker](https://github.com/ljnchn/Node
 
 1.  **克隆仓库**
     ```bash
-    git clone https://github.com/pjy02/NodeSeeker-DeepFlood.git
+    git clone https://github.com/pjy02/NodeSeeker_DeepFlooder.git
     cd your-repo-name
     ```
 
