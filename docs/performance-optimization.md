@@ -1,4 +1,4 @@
-# NodeSeeker RSS 数据查询性能优化报告
+# NodeSeeker-DeepFlooder RSS 数据查询性能优化报告
 
 ## 🎯 优化概述
 
@@ -233,7 +233,7 @@ const config = getEnvironmentConfig('production');
 
 ## 📈 成果总结
 
-通过本次全面的性能优化，NodeSeeker RSS 监控系统的数据查询性能得到了显著提升：
+通过本次全面的性能优化，NodeSeeker-DeepFlooder RSS 监控系统的数据查询性能得到了显著提升：
 
 1. **响应速度**: 大幅提升查询响应速度
 2. **资源使用**: 显著降低内存和CPU使用
@@ -269,4 +269,4 @@ WHERE created_at >= datetime('now', '-24 hours')
 - 统计页面显示"24小时文章数"、"24小时新增"、"24小时推送"
 - 说明文字更新为"最近24小时发送的消息数量"
 
-这样的改动使得统计数据更加实时和准确，反映最近24小时的系统活动情况。 
+这样的改动使得统计数据更加实时和准确，反映最近24小时的系统活动情况。

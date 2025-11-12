@@ -406,7 +406,7 @@ export class RSSService {
           const response = await fetch(source.url, {
             method: 'HEAD',
             headers: {
-              'User-Agent': 'NodeSeeker RSS Bot 1.0',
+              'User-Agent': 'NodeSeeker-DeepFlooder RSS Bot 1.0',
               ...(source.referer ? { Referer: source.referer } : {})
             }
           });

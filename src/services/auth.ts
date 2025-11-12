@@ -28,7 +28,7 @@ export interface JWTPayload {
 }
 
 export class AuthService {
-  private readonly JWT_SECRET = 'nodeseeker-jwt-secret-key'; // 在生产环境中应该使用环境变量
+  private readonly JWT_SECRET = 'nodeseeker-deepflooder-jwt-secret-key'; // 在生产环境中应该使用环境变量
   private readonly TOKEN_EXPIRY = 7 * 24 * 60 * 60; // 7天过期 (秒)
 
   constructor(private dbService: DatabaseService) {}

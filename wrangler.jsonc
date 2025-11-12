@@ -1,6 +1,6 @@
 {
   "$schema": "node_modules/wrangler/config-schema.json",
-  "name": "nodeseeker",
+  "name": "nodeseeker-deepflooder",
 	"compatibility_date": "2025-04-01",
 	"compatibility_flags": [
 		"nodejs_compat"
@@ -9,7 +9,7 @@
   "d1_databases": [
     {
       "binding": "DB",
-      "database_name": "nodeseeker",
+      "database_name": "nodeseeker-deepflooder",
       "database_id": "a06471fa-a92e-47e6-9cb1-c37e5c3b8ae1"
     }
   ],

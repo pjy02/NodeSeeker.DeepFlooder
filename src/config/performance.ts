@@ -12,7 +12,7 @@ export const PerformanceConfig = {
     // 最大文章数量（避免内存溢出）
     maxArticles: 100,
     // 用户代理
-    userAgent: 'NodeSeeker RSS Bot 1.0'
+    userAgent: 'NodeSeeker-DeepFlood RSS Bot 1.0'
   },
 
   // 数据库配置

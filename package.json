@@ -1,5 +1,5 @@
 {
-  "name": "NodeSeeker",
+  "name": "NodeSeeker-DeepFlood",
   "type": "module",
   "scripts": {
     "dev": "vite",
@@ -7,8 +7,8 @@
     "preview": "pnpm run build && vite preview",
     "deploy": "pnpm run build && wrangler deploy",
     "cf-typegen": "wrangler types --env-interface CloudflareBindings",
-    "db:create": "wrangler d1 create nodeseeker-db",
-    "db:migrate": "wrangler d1 execute nodeseeker-db --file=./migrations/0001_initial.sql"
+    "db:create": "wrangler d1 create nodeseeker-deepflooder-db",
+    "db:migrate": "wrangler d1 execute nodeseeker-deepflooder-db --file=./migrations/0001_initial.sql"
   },
   "dependencies": {
     "grammy": "^1.30.0",
